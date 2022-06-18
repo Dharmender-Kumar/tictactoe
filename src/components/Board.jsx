@@ -3,21 +3,21 @@ import Square from "./Square";
 
 const board = () => {
   return (
-    <div>
-      <div>
+    <div className="board">
+      <div className="board-row">
         <Square value={1} />
-        <Square />
-        <Square />
+        <Square value={1} />
+        <Square value={1} />
       </div>
-      <div>
-        <Square />
-        <Square />
-        <Square />
+      <div className="board-row">
+        <Square value={1} />
+        <Square value={1} />
+        <Square value={1} />
       </div>
-      <div>
-        <Square />
-        <Square />
-        <Square />
+      <div className="board-row">
+        <Square value={1} />
+        <Square value={1} />
+        <Square value={1} />
       </div>
     </div>
   );
